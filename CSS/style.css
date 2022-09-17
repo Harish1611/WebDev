@@ -1,0 +1,50 @@
+body {
+  background-color: #C9D6DF;
+  margin: 0px;
+}
+
+hr {
+  height: 3px;
+}
+
+.dotted {
+  border-style: none;
+  border-top-color: gray;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+h3 {
+  color: #1E2022;
+  font-size: 25px;
+  font-family: papyrus;
+}
+h1{
+  font-family: Lucida sans;
+
+}
+p{
+  font-family: Lucida sans;
+}
+
+.emailbox{
+  background-color:#C9D6D8;
+  width:260px;
+  padding: 20px;
+  border-style: inset;
+  padding-left:60px;
+  padding-right:60px;
+
+  border-radius:10px;
+}
+.card{
+  background-color:#C9D6D8;
+  width:260px;
+  padding: 20px;
+  border-style: inset;
+  padding-left:60px;
+  padding-right:60px;
+
+  border-radius:10px;
+}
