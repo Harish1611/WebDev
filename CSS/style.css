@@ -7,6 +7,10 @@ hr {
   height: 3px;
 }
 
+* {
+  font-family: Lucida sans;
+}
+
 .dotted {
   border-style: none;
   border-top-color: gray;
@@ -20,31 +24,41 @@ h3 {
   font-size: 25px;
   font-family: papyrus;
 }
-h1{
-  font-family: Lucida sans;
 
-}
-p{
+h1 {
   font-family: Lucida sans;
 }
 
-.emailbox{
-  background-color:#C9D6D8;
-  width:260px;
-  padding: 20px;
-  border-style: inset;
-  padding-left:60px;
-  padding-right:60px;
-
-  border-radius:10px;
+p {
+  font-family: Lucida sans;
 }
-.card{
-  background-color:#C9D6D8;
-  width:260px;
+
+.emailbox {
+  background-color: #C9D6D8;
+  width: 260px;
   padding: 20px;
   border-style: inset;
-  padding-left:60px;
-  padding-right:60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+}
 
-  border-radius:10px;
+.card {
+  background-color: #C9D6D8;
+  width: 260px;
+  padding: 20px;
+  border-style: inset;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+}
+
+#profiled {
+  border-radius: 10px;
+}
+
+.navbar:hover {
+  background-color: gray;
+  border-radius: 5px;
+  padding: 2px;
 }
